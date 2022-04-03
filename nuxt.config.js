@@ -4,7 +4,8 @@ export default {
   ssr: true,  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'so-graced',
+    title: 'Pure Organic Palm Oil | So Graced Store',
+    description: 'Our Palm Oil is pure and processed following hygenic and saftey standards that ensure our oil is healthy for consumption. We do not add any additives or preservatives known to have harmful effects on the body.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +15,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true},
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins&display=swap'}
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'}
     ]
   },
 

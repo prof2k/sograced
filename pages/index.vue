@@ -101,7 +101,7 @@
         <h2 class="text-center">Enjoy Pure Quality</h2>
         <div class="flex items-center justify-center space-x-10 xl:space-x-0 xl:flex-col xl:space-y-10">
           <img src="~assets/palm-oil-bowl.png" height="100" class="w-[150px]" alt="">
-          <div class="space-y-3 text-xl flex flex-col xl:items-center">
+          <div class="space-y-3 text-xl xl:text-center">
             <p>$24.99 | 4 Litres | 100% Organic</p>
             <a href="#" class="cta">Buy Now</a>
           </div>

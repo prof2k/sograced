@@ -9,6 +9,14 @@
   color: #2e2828;
 }
 
+::selection {
+  @apply bg-theme-green text-white;
+}
+
+img {
+  user-select: none;
+}
+
 @screen md {
   :root {
     font-size: 15px;
