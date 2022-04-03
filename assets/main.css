@@ -1,0 +1,22 @@
+@font-face {
+  font-family: casual;
+  src: url('~assets/Casual-Regular.ttf');
+}
+
+:root {
+  font-size: 16px;
+  font-family: poppins;
+  color: #2e2828;
+}
+
+@screen md {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@screen sm {
+  :root {
+    font-size: 14px;
+  }
+}
