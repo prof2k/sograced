@@ -1,26 +1,26 @@
 <template>
   <div>
-    <header class="py-3 transform shadow-md">
+    <header class="py-3 transform shadow-md fied w-full top-0 bg-white">
       <div class="container flex items-center justify-between">
-        <img src="~assets/logo.svg" class="w-[200px] sm:w-[150px]" alt="">
+        <img src="~assets/logo.svg" class="w-[200px] sm:w-[150px] sm:hidden" alt="">
+        <img src="~assets/logo-small.svg" class="w-[50px] sm:block hidden" alt="">
         <div class="space-x-5">
-          <a href="#" class="cta small">Buy Now</a>
+          <a href="https://buy.stripe.com/00g16KaYJ598dnGbII" class="cta small">Buy Now</a>
         </div>
       </div>
     </header>
     <main>
-      <section id="hero" class="text-[1.15rem] pb-32 xl:text-center">
+      <section id="hero" class="text-[1.15rem] pt-20 pb-32 xl:text-center">
         <div class="container flex xl:flex-col xl:space-y-20 items-center">
           <div class="w-1/2 space-y-8 xl:w-full xl:max-w-2xl">
             <h1 class="text-[4.7rem] xl:text-[4.2rem]">Pure <span class="text-theme-red">Palm Oil</span> for a <span class="">Healthy Life</span></h1>
             <p class="max-w-xl xl:mx-auto">Enjoy pure 100% Organic palm oil for your family. No additives or preservatives.</p>
             <div class="flex items-center space-x-2 xl:justify-center">
-              <a href="#" class="cta"><span class="pr-3">Buy Now</span> <span class="opacity-50">|</span> <span class="pl-2"> $ 24.99</span></a>
-              <!-- <span>See Qualities</span> -->
+              <a href="https://buy.stripe.com/00g16KaYJ598dnGbII" class="cta"><span class="pr-3">Buy Now</span> <span class="opacity-50">|</span> <span class="pl-2"> $ 24.99</span></a>
             </div>
           </div>
           <div class="w-1/2 xl:w-full xl:max-w-2xl">
-            <img src="~assets/Group 7a.png" alt="">
+            <img src="~assets/Group 7a.webp" alt="">
           </div>
         </div>
       </section>
@@ -35,7 +35,6 @@
                     <h3>100% Pure and Organic</h3>
                     <p>No artificial Ingredients added</p>
                   </div>
-                  <img src="" alt="">
                 </div>
                 <div class="flex items-center space-x-5">
                   <img src="~assets/flask.png" class="w-14 h-14" alt="">
@@ -43,7 +42,6 @@
                     <h3>No additives</h3>
                     <p>No harmful chemical additives have been added for preservation</p>
                   </div>
-                  <img src="" alt="">
                 </div>
               </div>
             </div>
@@ -58,7 +56,6 @@
                     <h3 class="">Improves Eye Sight</h3>
                     <p>It contains Vitamin A which boost eyesight</p>
                   </div>
-                  <img src="" alt="">
                 </div>
                 <div class="flex items-center space-x-5">
                   <img src="~assets/heart.png" class="w-14 h-14" alt="">
@@ -66,7 +63,6 @@
                     <h3 class="">Promotes Hearth Health</h3>
                     <p>It contains anitioxidants that can reduce chances of hearth diseases.</p>
                   </div>
-                  <img src="" alt="">
                 </div>
                 <div class="flex items-center space-x-5">
                   <img src="~assets/brain.png" class="w-14 h-14" alt="">
@@ -74,13 +70,12 @@
                     <h3 class="">Improves Congition</h3>
                     <p>It contains Vitamins E which helps brain health</p>
                   </div>
-                  <img src="" alt="">
                 </div>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-center flex-grow pb-24 xl:pt-12 xl:w-full">
-            <img src="~assets/palm-bunch.png" class="inline" alt="">
+            <img src="~assets/palm-bunch.webp" class="inline" alt="">
           </div>
         </div>
       </section>
@@ -95,19 +90,19 @@
           </div>
         </div>
       </section>
-    </main>
-    <section id="final-cta" class="py-32">
-      <div class="container space-y-10">
-        <h2 class="text-center">Enjoy Pure Quality</h2>
-        <div class="flex items-center justify-center space-x-10 xl:space-x-0 xl:flex-col xl:space-y-10">
-          <img src="~assets/palm-oil-bowl.png" height="100" class="w-[150px]" alt="">
-          <div class="space-y-3 text-xl xl:text-center">
-            <p>$24.99 | 4 Litres | 100% Organic</p>
-            <a href="#" class="cta">Buy Now</a>
+      <section id="final-cta" class="py-32">
+        <div class="container space-y-10">
+          <h2 class="text-center">Enjoy Pure Quality</h2>
+          <div class="flex items-center justify-center space-x-10 xl:space-x-0 xl:flex-col xl:space-y-10">
+            <img src="~assets/palm-oil-bowl.png" alt="Bowl of " height="100" class="w-[150px]">
+            <div class="space-y-3 text-xl xl:text-center">
+              <p>$24.99 | 4 Litres | 100% Organic</p>
+              <a href="https://buy.stripe.com/00g16KaYJ598dnGbII" class="cta">Buy Now</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer class="py-12 pt-20 text-white bg-theme-green">
       <div class="container text-center">
         <p>&copy; 2022. So Graced Foods. All Rights Reserved</p>
