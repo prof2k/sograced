@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="py-3 transform shadow-md fied w-full top-0 bg-white">
+    <header class="top-0 w-full py-3 transform bg-white shadow-md fied">
       <div class="container flex items-center justify-between">
         <img src="~assets/logo.svg" class="w-[200px] sm:w-[150px] sm:hidden" alt="">
         <img src="~assets/logo-small.svg" class="w-[50px] sm:block hidden" alt="">
@@ -11,7 +11,7 @@
     </header>
     <main>
       <section id="hero" class="text-[1.15rem] pt-20 pb-32 xl:text-center">
-        <div class="container flex xl:flex-col xl:space-y-20 items-center">
+        <div class="container flex items-center xl:flex-col xl:space-y-20">
           <div class="w-1/2 space-y-8 xl:w-full xl:max-w-2xl">
             <h1 class="text-[4.7rem] xl:text-[4.2rem]">Pure <span class="text-theme-red">Palm Oil</span> for a <span class="">Healthy Life</span></h1>
             <p class="max-w-xl xl:mx-auto">Enjoy pure 100% Organic palm oil for your family. No additives or preservatives.</p>
@@ -80,7 +80,7 @@
         </div>
       </section>
       <section id="more" class="py-0 text-white bg-red-900">
-        <div class="container xl:w-full flex xl:flex-col">
+        <div class="container flex xl:w-full xl:flex-col">
           <div class="w-5/12 py-40 pr-6 space-y-8 xl:w-full xl:pt-28 xl:pb-20">
             <h2 class="">The best quality for your family</h2>
             <p>Our Palm Oil is pure and processed following hygenic and saftey standards that ensure our oil is healthy for consumption. We do not add any additives or preservatives known to have harmful effects on the body. </p>
